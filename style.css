@@ -1,0 +1,96 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
+:root {
+    --clr-orange-600: hsl(26, 100%, 55%);
+    --clr-orange-200: hsl(25, 100%, 94%);
+
+
+    --clr-blue-900: hsl(220, 13%, 13%);
+    --clr-blue-500: hsl(219, 9%, 45%);
+    --clr-blue-300: hsl(220, 14%, 75%);
+    --clr-blue-200: hsl(223, 64%, 98%);
+    --clr-white-100: hsl(0, 0%, 100%);
+
+    --clr-black-75: hsl(0, 0%, 0%, 0.75);
+
+    --ff-base: 'Karla', sans-serif;
+
+    --fw-bold: 700;
+    --fw-base: 400;
+}
+
+/*
+  CSS RESET
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+/***********
+   main Css
+************/
+body {
+    font-size: 16px;
+    font-family: var(--ff-base);
+    font-weight: var(--fw-base);
+    color: var(--clr-grey-900);
+    background-color: var(--clr-green-200);
+}
+
+@media (min-width: 431px) {
+    
+}
