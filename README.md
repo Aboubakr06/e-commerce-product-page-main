@@ -47,7 +47,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://beautiful-cuchufli-ddc397.netlify.app/)
 
 ## My process
 
